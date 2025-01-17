@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualizationStyle>
+  <General baseStyle="FlatCommon, 3.5.14.0 (3S-Smart Software Solutions GmbH)">
+    <Strings>
+      <Language lang="de" />
+      <Language lang="en" />
+    </Strings>
+    <StyleInfo>
+      <Name>MyFlatStyle</Name>
+      <Company>MyCompany</Company>
+      <Version>1.0.0.1</Version>
+    </StyleInfo>
+  </General>
+  <StyleDefinition>
+    <Fonts />
+    <Colors>
+      <Color name="Element-ComboBoxInteger-Box-Color" attributes="hide">0xFF3C3C3C</Color>
+      <Color name="Element-ComboBoxInteger-List-FirstColor" attributes="hide">0xFFBEBEBE</Color>
+      <Color name="Element-ComboBoxInteger-List-SecondColor" attributes="hide">0xFF828282</Color>
+      <Color name="Element-ComboBoxInteger-Selection-Color" attributes="hide">0xFF1E1E1E</Color>
+      <!--Header and frame color-->
+      <Color name="Dialog-BackgroundColor">0xFFBEBEBE</Color>
+      <Color name="Dialog-ButtonColor">0xFF3C3C3C</Color>
+      <!--Rahmen und Hintergrund-->
+      <Color name="Progressbar-Frame-Color" attributes="hide">0xFF3C3C3C</Color>
+    </Colors>
+    <Images />
+    <AdditionalStyles>
+      <!-- Styledefinition-->
+      <Value name="Style" type="string">STYLE9_FLAT</Value>
+    </AdditionalStyles>
+  </StyleDefinition>
+</VisualizationStyle>
